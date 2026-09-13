@@ -19,11 +19,16 @@
 在仓库目录下运行(需要 Python 3.8+):
 
 ```bash
-python today.py                    # 今天有什么更新?
-python today.py week               # 本周追番日历
-python today.py done 牧神记         # 看完了,打卡!
-python today.py done 牧神记 第52集 名场面好评   # 打卡可以带备注(集数/感想)
-python today.py log                # 查看本月打卡记录
+python today.py                      # 今天有什么更新?
+python today.py week                 # 本周追番日历(✅ = 已打卡)
+python today.py open                 # 一键打开今天还没看的番
+python today.py done 牧神记           # 看完了,打卡!
+python today.py done 牧神记 第52集 名场面好评    # 打卡可以带备注(集数/感想)
+python today.py done 牧神记 -d 2026-09-12     # 忘了打卡?补上(也可以写 -d 昨天)
+python today.py undo 牧神记           # 手滑打错了?撤销当天的打卡
+python today.py log                  # 查看本月打卡记录
+python today.py log 2026-08          # 翻任意月份的旧账
+python today.py stats                # 本月统计:打卡次数、覆盖天数、最近感想
 ```
 
 打卡会自动追加到 `records/年-月.md`,格式如下:
