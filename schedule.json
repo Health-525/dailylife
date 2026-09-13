@@ -1,0 +1,28 @@
+{
+  "shows": [
+    {
+      "title": "仙逆",
+      "platform": "腾讯视频",
+      "weekday": 0,
+      "url": "https://v.qq.com/"
+    },
+    {
+      "title": "灵境行者",
+      "platform": "腾讯视频",
+      "weekday": 3,
+      "url": "https://v.qq.com/"
+    },
+    {
+      "title": "凡人修仙传",
+      "platform": "哔哩哔哩",
+      "weekday": 5,
+      "url": "https://www.bilibili.com/"
+    },
+    {
+      "title": "牧神记",
+      "platform": "哔哩哔哩",
+      "weekday": 6,
+      "url": "https://www.bilibili.com/"
+    }
+  ]
+}
